@@ -75,6 +75,7 @@ class MainActivity : AppCompatActivity() {
                 Log.d("trace","Error: ${p1.message}")
                 binding.swipeRefresh.isRefreshing=false
                 binding.progress.isVisible=false
+
             }
 
         } )
